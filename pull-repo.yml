@@ -1,0 +1,10 @@
+---
+- hosts: all
+
+  tasks:
+  - name: Pull Repo
+    git:
+      repo: "{{ springpetclinic_repo }}"
+      version: "{{ springpetclinic_branch }}"
+      dest: /var/www/springpetclinc/
+      

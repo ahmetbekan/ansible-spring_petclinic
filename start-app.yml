@@ -1,0 +1,12 @@
+---
+- hosts: all
+
+  tasks:
+  - name: Start Spring Pet Clinic 
+    command: ./mvnw package
+    args:
+      chdir: /var/www/springpetclinc/
+  - name: Start Spring Pet Clinic Java
+    command: nohup java -jar spring-petclinic-2.3.1.BUILD-SNAPSHOT.jar &
+    args:
+      chdir: /var/www/springpetclinc/target
