@@ -6,5 +6,8 @@
   - name: Change app name
     shell: "mv target/*.jar target/app.jar /var/www/springpetclinc/target &"
     
+<<<<<<< HEAD
 
     
+=======
+>>>>>>> 807b7a0ca77321ac76c4ef01db9d9c25d6414465
