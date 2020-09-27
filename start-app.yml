@@ -3,7 +3,5 @@
 
   tasks:
   - name: Start Spring Pet Clinic 
-    command: ./mvnw package
-    args:
-      chdir: /var/www/springpetclinc/
-  
+    shell: "./mvnw package"
+    
