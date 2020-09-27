@@ -3,5 +3,5 @@
 
   tasks:
   - name: Start Spring Pet Clinic 
-    shell: "./mvnw package"
+    shell: "./mvnw package /var/www/springpetclinc/ &"
     
