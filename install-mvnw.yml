@@ -2,7 +2,7 @@
 - hosts: all
 
   tasks:
-  - name: Install Maven using YUM.
+  - name: Install Maven
     yum:
       name: "maven"
       state: latest  
