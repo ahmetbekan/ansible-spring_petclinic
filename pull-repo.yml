@@ -4,7 +4,7 @@
   tasks:
   - name: Pull Repo
     git:
-      repo: "{{ springpetclinic_repo }}"
-      version: "{{ springpetclinic_branch }}"
+      repo: "{{ petclinic_repo }}"
+      version: "{{ petclinic_branch }}"
       dest: /var/www/springpetclinc/
       
